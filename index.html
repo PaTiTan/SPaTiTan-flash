@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SpaTiTan — Installation 16 Mo</title>
+<title>SpaTiTan — Installation</title>
 <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js"></script>
 <style>
   body{font-family:Arial,sans-serif;background:#252525;color:#eaeaea;text-align:center;margin:0;padding:40px 20px}
@@ -20,10 +20,10 @@
 </style>
 </head><body>
   <div class="panel">
-    <h1>SpaTiTan — Installation complète (16 Mo)</h1>
+    <h1>SpaTiTan — Installation</h1>
     <p>
-      Cette page installe en une fois le firmware SpaTiTan (build 16 Mo) et le tutoriel
-      d'utilisation illustré, directement depuis votre navigateur, via un simple câble USB.
+      Cette page installe le firmware SpaTiTan directement depuis votre navigateur, via un simple
+      câble USB.
     </p>
     <div class="warn">
       ⚠️ Cette opération réinitialise entièrement l'appareil (identifiants WiFi/MQTT, planning,
@@ -31,10 +31,10 @@
       neuf.
     </div>
     <div class="row">
-      <esp-web-install-button id="btn_stable" manifest="manifest-16m-stable.json">
+      <esp-web-install-button id="btn_stable" manifest="manifest-stable.json">
         <button slot="activate">Installer — Stable</button>
       </esp-web-install-button>
-      <esp-web-install-button id="btn_beta" manifest="manifest-16m-beta.json">
+      <esp-web-install-button id="btn_beta" manifest="manifest-beta.json">
         <button slot="activate">Installer — Beta</button>
       </esp-web-install-button>
     </div>
